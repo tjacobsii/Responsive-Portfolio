@@ -54,7 +54,7 @@ h3 {
 /* header */
 
 #masthead {
-  position: fixed;
+  position: static;
   z-index: 99;
   width: 100%;
   margin: 0 0 30px;
@@ -235,4 +235,15 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+@media screen {
+  max-width: 980px;
+}
+
+@media screen {
+  max-width: 768px;
+}
+
+@media screen {
+  max-width: 640px;
 }
